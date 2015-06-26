@@ -5,7 +5,7 @@
 # Author : Prince Oppong Boamah<regioths@gmail.com>
 # Date : 23 June 2015
 
-for n in $(seq -50 10 50); do 
+for n in $(seq 50 -10 -50); do 
     echo The variable n now holds the variable $n
 done
  
